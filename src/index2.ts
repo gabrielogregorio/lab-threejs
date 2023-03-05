@@ -1,7 +1,12 @@
 import * as Three from "three";
 
 let renderer = new Three.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
+
+const setSizeScreen = (rendererLocal: Three.WebGLRenderer) => {
+  rendererLocal.setSize(window.innerWidth, window.innerHeight);
+};
+
+setSizeScreen(renderer);
 document.body.appendChild(renderer.domElement);
 
 // camera
@@ -224,6 +229,24 @@ const sphere2 = new Three.Mesh(sphere2Geometry, sphere2Material);
 scene.add(sphere2);
 sphere2.position.set(-5, 10, 10);
 
+// import blend files -> .glb
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+const assetLoader = new GLTFLoader();
+
+const threeUrl = new URL("./assets/three.glb", import.meta.url);
+assetLoader.load(
+  threeUrl.href,
+  (gltf) => {
+    const model = gltf.scene;
+    scene.add(model);
+    model.position.set(0, 0, 1);
+  },
+  undefined,
+  (error) => {
+    console.error("erro ao carregar arvores", error);
+  }
+);
+
 const animate = (time) => {
   box.rotation.x = time / 1000;
   box.rotation.y = time / 1000;
@@ -263,4 +286,10 @@ const animate = (time) => {
 };
 
 renderer.setAnimationLoop(animate);
-// minuto 40
+
+window.addEventListener("resize", () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+
+  setSizeScreen(renderer);
+});

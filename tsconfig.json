@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "module": "esnext",
     "experimentalDecorators": true,
     "jsxImportSource": "preact",
+    "allowJs": true,
     "isolatedModules": true
   }
 }
