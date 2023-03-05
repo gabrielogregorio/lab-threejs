@@ -151,8 +151,8 @@ scene.fog = new Three.FogExp2(0xffffff, 0.05);
 
 // bg color and texture images
 // renderer.setClearColor(0x1111ff);
-import img1 from "../../stars/img1.png";
-import img3 from "../../stars/img3.png";
+import img1 from "../../../stars/img1.png";
+import img3 from "../../../stars/img3.png";
 import { BufferAttribute } from "three";
 const textureLoader = new Three.TextureLoader();
 // scene.background = textureLoader.load(img3); // one image
