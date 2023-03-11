@@ -7,7 +7,8 @@
     "dev1": "npx parcel ./src/movement/index.html",
     "dev2": "npx parcel ./src/studies/index.html",
     "dev3": "npx parcel ./src/solarSystem/index.html",
-    "dev4": "npx parcel ./src/animations/index.html"
+    "dev4": "npx parcel ./src/animations/index.html",
+    "dev5": "npx parcel ./src/collision/index.html"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.4.0",
@@ -20,6 +21,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
+    "cannon-es": "^0.20.0",
     "dat.gui": "^0.7.9",
     "three": "^0.150.1"
   },
