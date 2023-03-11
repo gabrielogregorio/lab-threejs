@@ -8,7 +8,10 @@
     "dev2": "npx parcel ./src/studies/index.html",
     "dev3": "npx parcel ./src/solarSystem/index.html",
     "dev4": "npx parcel ./src/animations/index.html",
-    "dev5": "npx parcel ./src/collision/index.html"
+    "dev5": "npx parcel ./src/collision/index.html",
+    "dev6": "npx parcel ./src/addOnClickAndPhisics/index.html"
+
+    
   },
   "devDependencies": {
     "@parcel/config-default": "^2.4.0",
