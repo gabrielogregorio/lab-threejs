@@ -6,7 +6,8 @@
   "scripts": {
     "dev1": "npx parcel ./src/movement/index.html",
     "dev2": "npx parcel ./src/studies/index.html",
-    "dev3": "npx parcel ./src/solarSystem/index.html"
+    "dev3": "npx parcel ./src/solarSystem/index.html",
+    "dev4": "npx parcel ./src/animations/index.html"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.4.0",
