@@ -12,9 +12,9 @@
     "6": "npx parcel ./src/addOnClickAndPhisics/index.html",
     "7": "npx parcel ./src/tabuleiro/index.html",
     "8": "npx parcel ./src/hdr/index.html",
-    "9": "npx parcel ./src/whereFindModels/index.html"
-
-    
+    "9": "npx parcel ./src/whereFindModels/index.html",
+    "10": "npx parcel ./src/tabuleiroAnimals/index.html",
+    "scene1": "npx parcel ./src/projects/scene1/index.html"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.4.0",

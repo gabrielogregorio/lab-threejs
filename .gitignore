@@ -2,3 +2,4 @@ node_modules
 dist
 .parcel-cache
 MR_INT-003_Kitchen_Pierre.hdr
+src/projects
