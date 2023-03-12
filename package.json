@@ -11,7 +11,10 @@
     "5": "npx parcel ./src/collision/index.html",
     "6": "npx parcel ./src/addOnClickAndPhisics/index.html",
     "7": "npx parcel ./src/tabuleiro/index.html",
-    "8": "npx parcel ./src/hdr/index.html"
+    "8": "npx parcel ./src/hdr/index.html",
+    "9": "npx parcel ./src/whereFindModels/index.html"
+
+    
   },
   "devDependencies": {
     "@parcel/config-default": "^2.4.0",
