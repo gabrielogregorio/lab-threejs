@@ -4,14 +4,14 @@
   "description": "three js studies",
   "main": "index.js",
   "scripts": {
-    "dev1": "npx parcel ./src/movement/index.html",
-    "dev2": "npx parcel ./src/studies/index.html",
-    "dev3": "npx parcel ./src/solarSystem/index.html",
-    "dev4": "npx parcel ./src/animations/index.html",
-    "dev5": "npx parcel ./src/collision/index.html",
-    "dev6": "npx parcel ./src/addOnClickAndPhisics/index.html"
-
-    
+    "1": "npx parcel ./src/movement/index.html",
+    "2": "npx parcel ./src/studies/index.html",
+    "3": "npx parcel ./src/solarSystem/index.html",
+    "4": "npx parcel ./src/animations/index.html",
+    "5": "npx parcel ./src/collision/index.html",
+    "6": "npx parcel ./src/addOnClickAndPhisics/index.html",
+    "7": "npx parcel ./src/tabuleiro/index.html",
+    "8": "npx parcel ./src/hdr/index.html"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.4.0",
